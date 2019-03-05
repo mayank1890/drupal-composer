@@ -1,0 +1,7 @@
+{
+    "name": "lsp/imp_safety_info",
+    "type": "drupal-module",
+    "description": "Provides important safety information about the product.",
+    "license": "GPL-2.0+",
+    "require": {}
+}

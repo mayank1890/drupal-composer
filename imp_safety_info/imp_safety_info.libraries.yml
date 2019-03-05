@@ -1,0 +1,13 @@
+imp_safety_info:
+  version: VERSION
+  js:
+    js/imp_safety_info.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery
+    - core/jquery.cookie
+    - core/jquery.ui.dialog
+  css:
+    theme:
+      css/imp_safety_info.css: {}

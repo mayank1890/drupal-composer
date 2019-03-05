@@ -1,0 +1,5 @@
+name: Important Safety Information
+type: module
+description: Displays the Important Safety Information about the product.
+core: 8.x
+package: Custom
