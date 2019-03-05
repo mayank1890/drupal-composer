@@ -1,0 +1,13 @@
+video_capability:
+  version: VERSION
+  js:
+    js/video_capability.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery
+    - core/jquery.cookie
+    - core/jquery.ui.dialog
+  css:
+    theme:
+      css/video_capability.css: {}

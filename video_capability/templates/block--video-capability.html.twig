@@ -1,0 +1,10 @@
+{#
+/**
+ * @file
+ * Profile video capability block.
+ */
+#}
+ <div class="video-capability--block" id="myVideoPlayer">
+    <video class="video-js" controls="" data-account={{ video_player_account_id }} data-application-id="" data-embed="default" data-player={{ video_player_name }} data-playlist-id={{ video_player_id }} height={{ video_player_height }} width={{ video_player_width}}>&nbsp;</video>
+    <script src="//players.brightcove.net/{{ video_player_account_id }}/{{ video_player_name }}_default/index.min.js"></script>
+ </div>

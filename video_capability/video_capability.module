@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @file
+ * Module file for video capability .
+ */
+
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Render\Markup;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_theme().
+ */
+function video_capability_theme() {
+  return [
+    'video_capability' => [
+      'template' => 'block--video-capability',
+      'variables' => [
+        'video_player_id' => FALSE,
+        'video_player_height' => FALSE,
+        'video_player_width' => FALSE,
+        'video_player_account_id' => FALSE,
+        'video_player_name' => FALSE,
+      ],
+    ],
+  ];
+}

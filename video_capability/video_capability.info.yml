@@ -1,0 +1,5 @@
+name: Video Capability
+type: module
+description: This module displays the video on webtsite using video id.
+core: 8.x
+package: Custom
